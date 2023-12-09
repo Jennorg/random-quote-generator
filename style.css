@@ -25,7 +25,7 @@ body {
     min-width: 40vw;
     max-height: 400px;
     min-height: 35vh;
-    margin: 0 30px;
+    margin: 0 50px;
     padding: 1.5rem;
     border-radius: 30px;
 }
@@ -57,7 +57,9 @@ button {
     box-shadow: 6px 6px 10px 1px #aaa;
     cursor: pointer;
     transition: border .3s ease, box-shadow .3s ease;
+    -webkit-tap-highlight-color: transparent; /*erese blue highlight*/
 }
+
 
 button:hover {
     border: 1px solid #aaa;    
