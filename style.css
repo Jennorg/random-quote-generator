@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', arial;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url(https://i.postimg.cc/CMDPPW2p/bookstore.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;    
+    max-width: 500px;
+    min-width: 40vw;
+    max-height: 400px;
+    min-height: 35vh;
+    margin: 0 30px;
+    padding: 1.5rem;
+    border-radius: 30px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+#quote {
+    font-family: 'whisper', cursive;
+    font-size: x-large;
+    text-align: center; 
+    font-weight: 600;
+    color: #444;   
+}
+
+#author {
+    margin-top: 8px;
+    font-family: cursive;
+}
+
+button {
+    margin-top: 30px;
+    background-color: inherit;
+    outline: none;
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 1px #aaa;
+    cursor: pointer;
+    transition: border .3s ease, box-shadow .3s ease;
+}
+
+button:hover {
+    border: 1px solid #aaa;    
+}
+
+button:active {
+    transition: border .0s;
+    border:1px solid #000;
+    box-shadow: 8px 8px 10px 1px #f9f9f9;
+}
